@@ -1,0 +1,104 @@
+header,footer{
+	background-color: #eeeefe;
+	border: 1px solid black;
+}
+
+footer{
+	padding: 10px;
+	border-radius: 8px;
+}
+
+html, body{
+	background-color: #1043cc7a;
+	margin: 0px;
+	padding: 0px;
+}
+
+header nav{
+	float: right;
+}
+
+
+header nav li{
+	display: inline;
+	padding: 2px;
+	font-size: 20px;
+	margin: 1px;
+	color: #fff;
+	background-color: green;
+	border-radius: 10px;
+}
+
+a{
+	color: #fff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.bordered{
+	border :1px solid #ccc;
+	border-radius: 2px;
+	background-color: white;
+}
+
+.contenar{
+	width: 900px;
+	margin: 0px auto;
+}
+
+#main{
+	border: 1px solid #555;
+	background-color: #cab345;
+	margin: 3px;
+}
+
+.loginf{
+	border: 1px solid #ccc;
+	width: 330px;
+	padding: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#result{
+	border: none;
+	width: 300px;
+	padding: 2px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#buttondiv{
+	border: 1px solid #ccc;
+	width: 300px;
+	padding: 2px;
+	display: inline-block;
+	vertical-align: top;
+}
+.loginf label{
+	font-weight: bold;
+	width: 120px;
+	display: inline-block;
+	padding-bottom: 7px;
+}
+
+.loginf input[type=text],
+.loginf input[type=password]{
+	width: 150px;
+}
+
+.loginf input[type=submit],
+.loginf input[type=reset]{
+	background-color: green;
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 10px;
+	width: 80px;
+}
+
+.loginf input[type=reset]{
+	background-color: darkred;
+}
