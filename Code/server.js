@@ -1,9 +1,9 @@
 var express = require('express');
 var app = express();
 
-var port = 3001;
+var port = 8090;
 
 app.use(express.static(__dirname + '/'));
 app.listen(port);
 
-console.log('Server started at' +port);
+console.log('Server started localhost at' +port);
