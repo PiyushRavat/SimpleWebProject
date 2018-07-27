@@ -7,7 +7,7 @@ toggleButton.on("click",function () {
 	resultDiv.toggle(500);	
 });*/
 
-$(document).ready(function(){
+$(function(){
 	$('#toggleButton').click(function(){
 		$('#result').toggle(1000);
 	});
