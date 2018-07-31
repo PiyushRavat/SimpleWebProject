@@ -12,3 +12,9 @@ $(function(){
 		$('#result').toggle(1000);
 	});
 });
+
+$(document).ready(function(){
+	$('#show').click(function(){
+	  $('#result').show(1500);
+	 });
+});
